@@ -1,30 +1,102 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h2 align="center">
+Boilerplate
+</h2>
 
-## Getting Started
+<blockquote align="center">
+  Boilerplate para projetos utilizando TypeScript, ReactJS, NextJS e Styled Components
+</blockquote>
 
-First, run the development server:
+<hr/>
+
+## :ballot_box_with_check: Objetivos:
+
+- Aprofundar conhecimentos sobre TypeScript;
+- Utilizar o ReactJS de uma maneira avançada;
+- Aprender sobre o NextJS para criar aplicações SSR;
+- Fazer a estilização com Styled Components;
+- Documentar o front-end com StoryBook;
+- Realizar os testes unitários com Jest, utilizando TDD;
+
+## :book: Sobre:
+
+Desenvolvimento de boilerplate para inicialização de projetos com TypeScript, ReactJS, NextJS e Styled Components, utilizando o recurso create next-app e passando um boilerplate para criação do novo projeto.
+
+
+## 🚀 Tecnologias:
+
+- TypeScript;
+- ReactJS;
+- NextJS;
+- Styled Components;
+- StoryBook;
+- Jest;
+- React Testing Library;
+
+## 🖥️ Como executar:
+
+Clone o repositório com:
 
 ```bash
-npm run dev
-# or
+git clone https://github.com/guihRovetta/boilerplate
+```
+
+Para baixar as dependências e instalar, utilize o comando na raiz do projeto:
+
+```bash
+yarn
+```
+
+Para rodar o projeto no modo de desenolvimento, execute:
+
+```bash
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Para gerar a build do projeto, execute:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```bash
+yarn build
+```
 
-## Learn More
+Para rodar o projeto no modo de produção, execute:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+yarn start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Para verificar as regras de lint, execute:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```bash
+yarn lint
+```
 
-## Deploy on Vercel
+Para rodar todos os testes, execute:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+yarn test
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Para gerar um componente automaticamente com os arquivos padrões, execute:
+
+```bash
+yarn generate nomeDoComponente
+```
+
+Para rodar o storybook, execute:
+
+```bash
+yarn storybook
+```
+
+<h3 align="center">
+Autor: <a alt="Guilherme Rovetta" href="https://github.com/guihRovetta">Guilherme Rovetta</a>
+</h3>
+
+<p align="center">
+
+  <a alt="Guilherme de Almeida Rovetta Linkedin" href="https://www.linkedin.com/in/guilherme-rovetta-381a89b0">
+  <img src="https://img.shields.io/badge/LinkedIn-Guilherme%20Rovetta-blue?logo=linkedin"/></a>
+  <a alt="Guilherme de Almeida Rovetta GitHub" href="https://github.com/guihRovetta">
+  <img src="https://img.shields.io/badge/GitHub-guihRovetta-lightgrey?logo=github"/></a>
+
+</p>
